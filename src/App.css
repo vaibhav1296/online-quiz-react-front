@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+body {
+  color: #5e0101;
 }
-
-.App-logo {
-  height: 40vmin;
+.disabled-link {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#hrStyle {
+  width: 80%;
+  background-color: black;
+  height: 2px;
+  margin: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.popup-show {
+  /* display: block;
+   */
+  visibility: visible;
+  z-index: 1000;
+}
+.popup-hide {
+  /* display: none !important; */
+  visibility: hidden;
+}
+#labelTag {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.signOutLink {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 18px;
+}
+.signOutLink:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#signInTitle {
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+#test-container {
+  background-color: #fed7d7;
+  border-radius: 8px;
+  width: 70%;
+}
+.btn,
+.btn:hover {
+  background-color: #fd7c7c;
+  color: white;
+}
+/* .btn:hover {
+  background-color: #fd7c7c;
+  color: white;
+} */
+
+.list-group-item {
+  cursor: pointer;
+  color: black;
+}
+.list-group-item.active {
+  background-color: #fd9696;
+  border: #fd9696;
+  color: white;
+}
+li {
+  list-style: none;
+}
+#logInDiv {
+  width: 50%;
+  background-color: #fed7d7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+#topic-card {
+  background-color: #feaaaa;
+  border: none;
+}
+#brandLink {
+  letter-spacing: 3px;
+  font-family: "Yeon Sung", cursive;
+  font-weight: "bolder";
+  font-size: 25px;
+  color: white;
+}
+#loader {
+  width: 300px;
+  height: 100px;
+  background-color: #d1d1d0;
+  color: black;
+}
+#conditionDiv {
+  width: 40%;
+}
+#navBrand {
+  width: 60%;
+}
+#home-container {
+  width: 80%;
+  background-color: #fed7d7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  #logInDiv {
+    width: 80%;
+    margin-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  #test-container {
+    width: 90%;
   }
 }
