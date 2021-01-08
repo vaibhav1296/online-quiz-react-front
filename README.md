@@ -23,4 +23,6 @@ and your application will start running on port 3000.
 
 **For this application you need its backend so that it can work properly.**
 
+Any suggestions regarding UI or functionality are welcomed :innocent: !!!
+
 ## some glimpse of this application
