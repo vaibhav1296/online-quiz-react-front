@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import helper from "../config/helper";
 
 class TopicCard extends Component {
