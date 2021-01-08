@@ -26,3 +26,39 @@ and your application will start running on port 3000.
 Any suggestions regarding UI or functionality are welcomed :innocent: !!!
 
 ## some glimpse of this application
+
+###### SignUp Page
+
+![SignUp](https://i.imgur.com/DK1j0l8.png)
+
+###### LogIn Page
+
+![LogIn](https://i.imgur.com/20MUVWq.png)
+
+###### Error Message
+
+![ErrorMessage](https://i.imgur.com/tzPgxBL.png)
+
+###### Home Page
+
+![HomePage](https://i.imgur.com/4rp1iAK.png)
+
+###### Topic Detail Page
+
+![TopicDetailPage](https://i.imgur.com/4q2XJAX.png)
+
+###### Test Page
+
+![Test](https://i.imgur.com/rzhxlaC.png)
+
+###### Submit Test
+
+![Submit](https://i.imgur.com/idBJe33.png)
+
+###### Result Page
+
+![Result](https://i.imgur.com/HgklTYM.png)
+
+#### Profile Page
+
+![Profile](https://i.imgur.com/95liE4L.png)
